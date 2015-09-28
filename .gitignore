@@ -1,0 +1,67 @@
+
+/buildsolutions
+/build
+/deploy
+/package
+bin/
+obj/
+src/merged_tests/
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+bin/*/*.exe
+*.pdb
+*.pidb
+*.user
+*.aps
+*.pch
+*.docstates
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.dbmdl
+*.schemaview
+*.tlh
+*.bak
+*.ncrunchsolution
+*.ncrunchproject
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.docstates
+seq diagram1.png
+StyleCop.Cache
+/tools/[cC]ode[aA]nalysis/
+/tools/[sS]tyle[cC]op/
+seq diagram1.vsd
+*.swp
+*.*~
+*.gpState
+*.ReSharper.*
+*.preflight
+#*.dotCover - The Configuration of unit test exclusions should be shared
+*.orig
+*.dotCover
+NDependOut/
+*.ndproj
+src/SyncToy_*.dat
+SyncToy_*.dat
+origin/za-Release
+_ConversionReport_Files/
+_temp
+_NCrunch*
+*.sln.DotSettings
+packages/
+src/.output
